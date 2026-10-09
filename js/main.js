@@ -84,10 +84,10 @@
   /* Sample team + sample availability. Replace with real staff and schedules. */
   var TEAM = [
     { id: 'any', name: 'Any available cleaner', role: 'We’ll match you with the best fit', img: 'images/team-any.svg', days: [1, 2, 3, 4, 5, 6], slots: ALL_SLOTS },
-    { id: '1', name: 'Team Member 1', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1662850886700-4ec19bd30d11?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [1, 2, 3, 4, 5], slots: ALL_SLOTS },
-    { id: '2', name: 'Team Member 2', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1573496527892-904f897eb744?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [2, 3, 4, 5, 6], slots: ALL_SLOTS },
-    { id: '3', name: 'Team Member 3', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1592275772614-ec71b19e326f?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [1, 3, 5, 6], slots: ['10:00 AM', '12:00 PM', '2:00 PM'] },
-    { id: '4', name: 'Team Member 4', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1589386417686-0d34b5903d23?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [1, 2, 3, 4], slots: ['8:00 AM', '10:00 AM', '12:00 PM'] }
+    { id: '1', name: 'Maya R.', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1662850886700-4ec19bd30d11?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [1, 2, 3, 4, 5], slots: ALL_SLOTS },
+    { id: '2', name: 'Danielle W.', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1573496527892-904f897eb744?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [2, 3, 4, 5, 6], slots: ALL_SLOTS },
+    { id: '3', name: 'Emily C.', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1592275772614-ec71b19e326f?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [1, 3, 5, 6], slots: ['10:00 AM', '12:00 PM', '2:00 PM'] },
+    { id: '4', name: 'Daniel P.', role: 'Cleaning Specialist', img: 'https://images.unsplash.com/photo-1589386417686-0d34b5903d23?auto=format&fit=crop&crop=faces&w=160&h=160&q=70', days: [1, 2, 3, 4], slots: ['8:00 AM', '10:00 AM', '12:00 PM'] }
   ];
 
   var state = { step: 1, service: '', cleaner: 'any', date: null, slot: '', pay: 'invoice' };
